@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310B387E2C1BF7DC004F50D5 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310B387D2C1BF7DC004F50D5 /* ResultTableViewCell.swift */; };
+		31405E942BEED5EE00D30467 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31405E932BEED5EE00D30467 /* BebasNeue-Regular.ttf */; };
+		31405E962BEED7DA00D30467 /* String + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31405E952BEED7DA00D30467 /* String + extension.swift */; };
+		3165A19F2BE31AA3006D6302 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3165A19E2BE31AA3006D6302 /* ResultsViewController.swift */; };
+		3165A1A12BE31AAF006D6302 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3165A1A02BE31AAF006D6302 /* SettingsViewController.swift */; };
+		3165A1A32BE31B00006D6302 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3165A1A22BE31B00006D6302 /* StartViewController.swift */; };
+		3179E3E62BF6D9F3008868AF /* ImageNameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3179E3E52BF6D9F3008868AF /* ImageNameConstants.swift */; };
+		3179E3E82BF72823008868AF /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3179E3E72BF72823008868AF /* Settings.swift */; };
+		3179E3EC2BF735D0008868AF /* UserDefaults + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3179E3EB2BF735D0008868AF /* UserDefaults + extension.swift */; };
+		3179E3EE2BF73866008868AF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3179E3ED2BF73866008868AF /* Constants.swift */; };
+		31901DD82BFEDBD0007BBC43 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31901DD72BFEDBD0007BBC43 /* ImageManager.swift */; };
+		31901DDA2BFEFE24007BBC43 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31901DD92BFEFE24007BBC43 /* DataManager.swift */; };
+		3193E4352BFAEEBD009E79CF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3193E4342BFAEEBD009E79CF /* Result.swift */; };
+		31F150EE2BE32CA900BCD1D7 /* CGFloat + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F150ED2BE32CA900BCD1D7 /* CGFloat + extension.swift */; };
+		31F61D7C2BE319220009B335 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F61D7B2BE319220009B335 /* AppDelegate.swift */; };
+		31F61D7E2BE319220009B335 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F61D7D2BE319220009B335 /* SceneDelegate.swift */; };
+		31F61D802BE319220009B335 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F61D7F2BE319220009B335 /* InitialViewController.swift */; };
+		31F61D832BE319220009B335 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 31F61D822BE319220009B335 /* Base */; };
+		31F61D852BE319240009B335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F61D842BE319240009B335 /* Assets.xcassets */; };
+		31F61D882BE319240009B335 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 31F61D872BE319240009B335 /* Base */; };
+		A8A528380176FFB18AFA6EF6 /* Pods_ITAcademy_RaceGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D4F47C2417275788F3CB0B /* Pods_ITAcademy_RaceGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		310B387D2C1BF7DC004F50D5 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		31405E932BEED5EE00D30467 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		31405E952BEED7DA00D30467 /* String + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + extension.swift"; sourceTree = "<group>"; };
+		3165A19E2BE31AA3006D6302 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		3165A1A02BE31AAF006D6302 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3165A1A22BE31B00006D6302 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		3179E3E52BF6D9F3008868AF /* ImageNameConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNameConstants.swift; sourceTree = "<group>"; };
+		3179E3E72BF72823008868AF /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3179E3EB2BF735D0008868AF /* UserDefaults + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults + extension.swift"; sourceTree = "<group>"; };
+		3179E3ED2BF73866008868AF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		31901DD72BFEDBD0007BBC43 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		31901DD92BFEFE24007BBC43 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3193E4342BFAEEBD009E79CF /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		31F150ED2BE32CA900BCD1D7 /* CGFloat + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat + extension.swift"; sourceTree = "<group>"; };
+		31F61D782BE319220009B335 /* ITAcademy_RaceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITAcademy_RaceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F61D7B2BE319220009B335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31F61D7D2BE319220009B335 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		31F61D7F2BE319220009B335 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		31F61D822BE319220009B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31F61D842BE319240009B335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31F61D872BE319240009B335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31F61D892BE319240009B335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EF328248F85530922266F7 /* Pods-ITAcademy_RaceGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITAcademy_RaceGame.release.xcconfig"; path = "Target Support Files/Pods-ITAcademy_RaceGame/Pods-ITAcademy_RaceGame.release.xcconfig"; sourceTree = "<group>"; };
+		53D4F47C2417275788F3CB0B /* Pods_ITAcademy_RaceGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITAcademy_RaceGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AC0DD55298AEDBDEC15839 /* Pods-ITAcademy_RaceGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITAcademy_RaceGame.debug.xcconfig"; path = "Target Support Files/Pods-ITAcademy_RaceGame/Pods-ITAcademy_RaceGame.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F61D752BE319220009B335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A528380176FFB18AFA6EF6 /* Pods_ITAcademy_RaceGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F64C58BC96A138F042BBDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53D4F47C2417275788F3CB0B /* Pods_ITAcademy_RaceGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3179E3EF2BF73A4C008868AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31F61D812BE319220009B335 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3179E3F02BF73A56008868AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31F61D7F2BE319220009B335 /* InitialViewController.swift */,
+				3165A1A22BE31B00006D6302 /* StartViewController.swift */,
+				3165A19E2BE31AA3006D6302 /* ResultsViewController.swift */,
+				3165A1A02BE31AAF006D6302 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3179E3F12BF73A6C008868AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3181B8B12C69AEAE005CF76C /* Constants */,
+				3181B8B22C69AEB7005CF76C /* Extensions */,
+				3181B8B42C69AF03005CF76C /* Custom Types */,
+				3181B8B32C69AEC8005CF76C /* Managers */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3181B8B12C69AEAE005CF76C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3179E3ED2BF73866008868AF /* Constants.swift */,
+				3179E3E52BF6D9F3008868AF /* ImageNameConstants.swift */,
+				31F150ED2BE32CA900BCD1D7 /* CGFloat + extension.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		3181B8B22C69AEB7005CF76C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				31405E952BEED7DA00D30467 /* String + extension.swift */,
+				3179E3EB2BF735D0008868AF /* UserDefaults + extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3181B8B32C69AEC8005CF76C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				31901DD72BFEDBD0007BBC43 /* ImageManager.swift */,
+				31901DD92BFEFE24007BBC43 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		3181B8B42C69AF03005CF76C /* Custom Types */ = {
+			isa = PBXGroup;
+			children = (
+				3179E3E72BF72823008868AF /* Settings.swift */,
+				3193E4342BFAEEBD009E79CF /* Result.swift */,
+			);
+			path = "Custom Types";
+			sourceTree = "<group>";
+		};
+		3181B8B52C69AF16005CF76C /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				310B387D2C1BF7DC004F50D5 /* ResultTableViewCell.swift */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		31F61D6F2BE319220009B335 = {
+			isa = PBXGroup;
+			children = (
+				31F61D7A2BE319220009B335 /* ITAcademy_RaceGame */,
+				31F61D792BE319220009B335 /* Products */,
+				33F4FB648BB571FFBBF73B70 /* Pods */,
+				08F64C58BC96A138F042BBDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31F61D792BE319220009B335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31F61D782BE319220009B335 /* ITAcademy_RaceGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31F61D7A2BE319220009B335 /* ITAcademy_RaceGame */ = {
+			isa = PBXGroup;
+			children = (
+				31F61D7B2BE319220009B335 /* AppDelegate.swift */,
+				31F61D7D2BE319220009B335 /* SceneDelegate.swift */,
+				3179E3F12BF73A6C008868AF /* Model */,
+				3181B8B52C69AF16005CF76C /* Table View Cells */,
+				3179E3EF2BF73A4C008868AF /* View */,
+				3179E3F02BF73A56008868AF /* Controller */,
+				31F61D842BE319240009B335 /* Assets.xcassets */,
+				31F61D862BE319240009B335 /* LaunchScreen.storyboard */,
+				31F61D892BE319240009B335 /* Info.plist */,
+				31405E932BEED5EE00D30467 /* BebasNeue-Regular.ttf */,
+			);
+			path = ITAcademy_RaceGame;
+			sourceTree = "<group>";
+		};
+		33F4FB648BB571FFBBF73B70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC0DD55298AEDBDEC15839 /* Pods-ITAcademy_RaceGame.debug.xcconfig */,
+				44EF328248F85530922266F7 /* Pods-ITAcademy_RaceGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31F61D772BE319220009B335 /* ITAcademy_RaceGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31F61D8C2BE319240009B335 /* Build configuration list for PBXNativeTarget "ITAcademy_RaceGame" */;
+			buildPhases = (
+				FD332C42F21A6490DD9CB3A9 /* [CP] Check Pods Manifest.lock */,
+				31F61D742BE319220009B335 /* Sources */,
+				31F61D752BE319220009B335 /* Frameworks */,
+				31F61D762BE319220009B335 /* Resources */,
+				54DB4AA82A620C3F976F4D9D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITAcademy_RaceGame;
+			productName = ITAcademy_RaceGame;
+			productReference = 31F61D782BE319220009B335 /* ITAcademy_RaceGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31F61D702BE319220009B335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					31F61D772BE319220009B335 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 31F61D732BE319220009B335 /* Build configuration list for PBXProject "ITAcademy_RaceGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31F61D6F2BE319220009B335;
+			productRefGroup = 31F61D792BE319220009B335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31F61D772BE319220009B335 /* ITAcademy_RaceGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31F61D762BE319220009B335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F61D852BE319240009B335 /* Assets.xcassets in Resources */,
+				31F61D882BE319240009B335 /* Base in Resources */,
+				31405E942BEED5EE00D30467 /* BebasNeue-Regular.ttf in Resources */,
+				31F61D832BE319220009B335 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54DB4AA82A620C3F976F4D9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ITAcademy_RaceGame/Pods-ITAcademy_RaceGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ITAcademy_RaceGame/Pods-ITAcademy_RaceGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ITAcademy_RaceGame/Pods-ITAcademy_RaceGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD332C42F21A6490DD9CB3A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ITAcademy_RaceGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31F61D742BE319220009B335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31901DDA2BFEFE24007BBC43 /* DataManager.swift in Sources */,
+				31F61D802BE319220009B335 /* InitialViewController.swift in Sources */,
+				3193E4352BFAEEBD009E79CF /* Result.swift in Sources */,
+				3179E3EC2BF735D0008868AF /* UserDefaults + extension.swift in Sources */,
+				31F61D7C2BE319220009B335 /* AppDelegate.swift in Sources */,
+				31405E962BEED7DA00D30467 /* String + extension.swift in Sources */,
+				31901DD82BFEDBD0007BBC43 /* ImageManager.swift in Sources */,
+				31F61D7E2BE319220009B335 /* SceneDelegate.swift in Sources */,
+				3179E3E82BF72823008868AF /* Settings.swift in Sources */,
+				31F150EE2BE32CA900BCD1D7 /* CGFloat + extension.swift in Sources */,
+				3165A1A12BE31AAF006D6302 /* SettingsViewController.swift in Sources */,
+				3165A19F2BE31AA3006D6302 /* ResultsViewController.swift in Sources */,
+				3179E3E62BF6D9F3008868AF /* ImageNameConstants.swift in Sources */,
+				3165A1A32BE31B00006D6302 /* StartViewController.swift in Sources */,
+				310B387E2C1BF7DC004F50D5 /* ResultTableViewCell.swift in Sources */,
+				3179E3EE2BF73866008868AF /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31F61D812BE319220009B335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F61D822BE319220009B335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31F61D862BE319240009B335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31F61D872BE319240009B335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31F61D8A2BE319240009B335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31F61D8B2BE319240009B335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31F61D8D2BE319240009B335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AC0DD55298AEDBDEC15839 /* Pods-ITAcademy_RaceGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W74YNGF3HL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ITAcademy_RaceGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vlad.ITAcademy-RaceGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		31F61D8E2BE319240009B335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44EF328248F85530922266F7 /* Pods-ITAcademy_RaceGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W74YNGF3HL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ITAcademy_RaceGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vlad.ITAcademy-RaceGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31F61D732BE319220009B335 /* Build configuration list for PBXProject "ITAcademy_RaceGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F61D8A2BE319240009B335 /* Debug */,
+				31F61D8B2BE319240009B335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31F61D8C2BE319240009B335 /* Build configuration list for PBXNativeTarget "ITAcademy_RaceGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F61D8D2BE319240009B335 /* Debug */,
+				31F61D8E2BE319240009B335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31F61D702BE319220009B335 /* Project object */;
+}
